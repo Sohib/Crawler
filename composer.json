@@ -1,0 +1,23 @@
+{
+    "name" : "sohib/crawler",
+    "description": "Scan Http URLs from a url containing an HTML  and get Json or Xml or Array",
+    "keywords": ["url", "scanner", "Page","Crawler"],
+    "homepage": "http://example.com",
+    "authors": [
+        {
+            "name": "Sohib Algotimel",
+            "homepage": "https://github.com/sohib",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^1.6",
+        "spatie/array-to-xml": "^2.0"
+    },
+
+  "autoload": {
+    "psr-4": {
+      "Sohib\\": "src/Sohib"
+    }
+  }
+}
