@@ -30,10 +30,12 @@ $urls = [
     "http://just-shower-thoughts.tumblr.com/",
     "http://ducksarethebest.com/",
 ];
+
 $crowler  = new Crawler\Scanner($urls);
-$crowler->scan()->toArray(); // return urls as array 
-$crowler->scan()->toJson();  // return urls as json
-$crowler->scan()->toXml(); // return urls as Xml
+$scanner = $crowler->scan();
+var_dump($scanner->toArray()); // return urls as array
+var_dump($scanner->toJson());  // return urls as json
+var_dump($scanner->toXml()); // return urls as Xml
 ```
 
 ## Change log
