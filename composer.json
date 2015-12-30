@@ -3,7 +3,7 @@
     "description": "Scan Http URLs from a url containing an HTML  and get Json or Xml or Array",
     "keywords": ["url", "scanner", "Page","Crawler"],
     "homepage": "http://example.com",
-    "versions": "1.0.0",
+    "versions": "1.0.1",
     "license" :"MIT",
     "authors": [
         {
